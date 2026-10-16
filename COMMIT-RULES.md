@@ -18,6 +18,8 @@ Read this before starting any task that includes staging or committing. The comm
 
 ## Commit message
 
+Write commit messages in English only, including the subject and body.
+
 Keep messages concise. Explain why the change exists, not only what the diff contains. Name symbols, interfaces, invariants, limits, or hardware constraints that help future debugging, preferring concrete names searchable in Git history.
 
 For a non-trivial change, one whose purpose, failure mechanism, trade-off, or verification is not clear from the subject and diff alone, record the applicable context in the repository's message format. Labels are optional.

@@ -6,6 +6,7 @@ The writing rules apply to all text you write: chat replies, explanations, code 
 
 ## Writing
 
+- Always communicate with the user in Korean.
 - Lead with the key point unless the requested format calls for a different order.
 - Omit empty framing and canned conclusions.
 - Keep facts, possibilities, requirements, and recommendations distinct. Do not raise or lower certainty or obligation without evidence or an explicit request.
@@ -24,6 +25,7 @@ The writing rules apply to all text you write: chat replies, explanations, code 
 
 ## Code comments
 
+- Write source code comments in English only.
 - Comment only when essential context cannot be inferred from the code and its absence could lead to a likely regression, misuse, or unsafe change: non-obvious rationale, invariants, external constraints, security or concurrency risks, hardware limits, or deliberate workarounds.
 - Explain why the constraint exists and what must stay true. Do not restate what the code does.
 - Follow repository requirements for public API documentation and generated comments.
@@ -36,6 +38,7 @@ The writing rules apply to all text you write: chat replies, explanations, code 
 
 ## Commits
 
+- Write commit messages in English only, including the subject and body.
 - Stage or commit only when the user explicitly asks. Editing or implementing a change authorizes neither. A staging request does not authorize a commit. A commit request authorizes only the staging that commit needs, not pushing, tagging, amending, fixup or squash commits, merging, rebasing, cherry-picking, or force pushes.
 - Treat pre-existing staged, unstaged, and untracked changes as the user's unless the task identifies them. Do not unstage, overwrite, modify, or include them.
 - Never use `git add .`, `git add -A`, `git add --all`, unscoped `git add -u`, or `git commit -a`.
