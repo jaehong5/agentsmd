@@ -21,6 +21,14 @@ The writing rules apply to all text you write: chat replies, explanations, code 
 - Prefer active voice when the actor is known and relevant.
 - Replace vague words such as robust, seamless, leverage, and powerful with the specific property or action. Remove them when nothing specific supports them.
 - In Korean prose, when options are equally faithful, prefer natural, direct, concrete wording over literal translation, vague references, heavy nominalization, and unnecessary passive voice.
+- Avoid Korean translationese such as '~를 통해', '~에 있어서', '~함에 있어', '~하는 것이 중요합니다', '~라고 할 수 있습니다', double passives such as '~되어지다', and '회의를 가지다'. Do not overuse vague references such as '이를' and '해당'.
+- Do not stack hedges such as '~일 수 있을 것으로 보입니다' or '~할 가능성이 있을 수도 있습니다'. State uncertainty once and say what is uncertain.
+- Write plainly, the way a senior engineer writes to a teammate.
+- Avoid inflated stock phrases common in AI writing, such as '핵심 축', '견고한 토대', '패러다임 전환', '새로운 지평', and '전략적 방향성'.
+- Do not habitually use formulaic structures such as '단순한 A가 아니라 B', 'A를 넘어 B로', and '궁극적으로 중요한 것은'.
+- Do not dress up ordinary facts or assign them significance they do not have.
+- Do not force content into a fixed number of items, such as three or five.
+- When avoiding a phrase, do not replace it with an awkward synonym or another stock phrase.
 - Do not introduce middle dots, em dashes, or en dashes in ordinary prose. Replace existing ones only when style polishing is in scope and the meaning stays the same. Keep them in quotations, code, file paths, URLs, official names, other verbatim content, and wherever a notation, citation style, or required format calls for them.
 
 ## Code comments
